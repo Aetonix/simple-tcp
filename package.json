@@ -1,0 +1,14 @@
+{
+  "name": "simple-tcp",
+  "version": "1.0.0",
+  "description": "A simple tcp server & client",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chandler Newman-Reed",
+  "license": "ISC",
+  "dependencies": {
+    "utils-merge": "^1.0.1"
+  }
+}
