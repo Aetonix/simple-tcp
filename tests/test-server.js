@@ -1,4 +1,4 @@
-var simpleTcp = require("./src/index");
+var simpleTcp = require("../src/index");
 
 var app = simpleTcp.tcp();
 
