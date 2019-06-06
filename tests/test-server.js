@@ -2,7 +2,7 @@ var simpleTcp = require("./src/index");
 
 var app = simpleTcp.tcp();
 
-app.start(43433, "localhost", "utf-8");
+app.start(28889, "localhost", "utf-8");
 
 app.use(function(req, res, next){
 	var message = req.msg;

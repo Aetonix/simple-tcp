@@ -45,6 +45,7 @@ TcpServer.prototype.start = function(port, address, encoding, options){
 			}
 		}).setEncoding(encoding ? encoding : "utf-8");
 	});
+	this.server.on("error", console.error);
 	this.server.listen(port, address ? address : "0.0.0.0");
 }
 
