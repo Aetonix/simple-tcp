@@ -33,7 +33,7 @@ function Res(socket){
 TcpServer.prototype.start = function(port, address, encoding, options){
 	var self = this;
 	options = options || {};
-	console.log("Starting Server");
+	debug("Starting Server");
 	this.server = net.createServer(function(socket){
 		socket.on("data", function(data){
 			try {
