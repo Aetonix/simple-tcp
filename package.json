@@ -9,6 +9,7 @@
   "author": "Chandler Newman-Reed",
   "license": "ISC",
   "dependencies": {
+    "debug": "^4.1.1",
     "utils-merge": "^1.0.1"
   }
 }
